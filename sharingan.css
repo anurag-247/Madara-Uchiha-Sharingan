@@ -1,0 +1,139 @@
+#eyebox {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    background-image: url("madara7.jpg") ;
+  }
+
+  #eye1 {
+    /* border-radius: 100px 100px 100px 100px; */
+    /* width: 100px; */
+    /* border: 5px solid black; */
+    /* border-style: inset; */
+    position: relative;
+    margin: 50px;
+    margin-right: 250px;
+    padding-right: 45px;
+    /* background-color: white; */
+    /* transform: rotate(-15deg); */
+  }
+
+  #eye2 {
+    /* border-radius: 80px 20px 80px 20px; */
+    /* width: 100px;
+    border: 5px solid black;
+    border-style: inset; */
+    position: relative;
+    margin: 50px;  
+    margin-left: 150px;
+    padding-right: 45px;
+    /* margin-right: 20px; */
+    /* background-color: white;
+    transform: rotate(15deg); */
+}
+
+
+.shar1 {
+    animation-name: shari1;
+    animation-duration: 4s;
+    /* position: absolute; */
+    /* animation-delay: 1s; */
+}
+
+.shar2 {
+    animation-name: shari2;
+    animation-duration: 4s;
+    /* position: absolute; */
+    /* animation-delay: 1s; */
+  }
+
+@keyframes shari1 {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+@keyframes shari2 {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+
+#eye1 img {
+    position:relative;
+    left:0;
+    }
+  #eye2 img {
+    position:relative;
+    left:0;
+    
+    }
+
+    #eye1 img.sharin1 {
+        position: absolute;
+        animation-name: FadeInOut1;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        /* animation-delay: 4s; */
+        animation-duration: 12s;
+        
+    }
+    
+    #eye2 img.sharin2 {
+        position: absolute;
+        animation-name: FadeInOut2;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        /* animation-delay: 4s; */
+        animation-duration: 12s;
+    }
+    
+    @keyframes FadeInOut1 {
+        from {opacity:0;transform: rotate(360deg);}
+        to {opacity:1;transform: rotate(0deg);position: absolute;}
+      }
+    @keyframes FadeInOut2 {
+        from {opacity:0;transform: rotate(0deg);}
+        to {opacity:1;transform: rotate(360deg);position: absolute;}
+      }
+
+      #eye1 img.sharing1 {
+        position: absolute;
+        animation-name: FadeInOut1;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        /* animation-delay: 6s; */
+        animation-duration: 20s;
+    }
+    
+    #eye2 img.sharing2 {
+        position: absolute;
+        animation-name: FadeInOut2;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        /* animation-delay: 6s; */
+        animation-duration: 20s;
+    }
+
+    #eye1 img.sharinga1 {
+        position: absolute;
+        animation-name: FadeInOut1;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        /* animation-delay: 8s; */
+        animation-duration: 28s;
+    }
+
+
+    #eye2 img.sharinga2 {
+        position: absolute;
+        animation-name: FadeInOut2;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        /* animation-delay: 8s; */
+        animation-duration: 28s;
+    }
+
+
+
